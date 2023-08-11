@@ -45,3 +45,5 @@ print(f"Modulus: {a} % {b} = {result_modulus}")
 result_floor_division = a // b
 print(f"Floor Division: {a} // {b} = {result_floor_division}")
 
+
+# ok, fine. Good usage of f-string

@@ -8,6 +8,9 @@ else:
     f_1 = var[0:2]
     f_2 = var[-2:]
     print(f_1 + f_2)
+
+#Nice!
+
 # Task 2
 
 get_num = input("Please input phone number: \n")
@@ -21,6 +24,8 @@ if get_num.isdigit():  # Check if input consists of digits only
         print("It's not a valid phone number.")
 else:
     print("You did not input a number.")
+
+# +
 
 # Task 3
 import random
@@ -49,13 +54,17 @@ if user_answer == correct_answer:
 else:
     print("Sorry, you made a mistake. The correct answer is:", correct_answer)
 
+# very good solution
+
 # Task 4
 
 my_name = "Oleksandr"
 
 user_input = input("Please enter your name: ")
 
-if user_input.lower() == my_name:
+if user_input.lower() == my_name: 
     print(" It`s True")
 else:
     print("It`s False")
+
+#all is ok, but value in my_name variable is not in lower case. you can add my_name.lower() method call to the user_input.lower() == my_name check
